@@ -1,0 +1,21 @@
+{
+    "name": "ratelimiter",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "ts-node src/app.ts",
+        "build": "tsc",
+        "serve": "node dist/app.js"
+    },
+    "keywords": [],
+    "author": "Divyanshi",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.19.2"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.21",
+        "@types/node": "^22.5.0"
+    }
+}
